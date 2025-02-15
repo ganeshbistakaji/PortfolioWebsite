@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/index.css" />
+    <title>Ganesh Bista</title>
+  </head>
+  <body>
+    <!-- Nav -->
+    <div class="navbar" id="nav">
+      <div class="navPc">
+        <div class="navTitle">&lt;Ganesh/&gt;</div>
+        <div class="links">
+          <a href="#about" class="link">About</a>
+          <a href="#skills" class="link">Skills</a>
+          <a href="#works" class="link">Works</a>
+          <a href="#contact" class="link">Contact</a>
+          <p class="theme-switcher" data-theme-toggle aria-label="">
+            Light Theme
+          </p>
+          <a
+            href="https://docs.google.com/document/d/1rqHgPr63IvSQzHtyLOcScd4YUJFReY-6nr900EcWmNY/edit?usp=sharing"
+            class="resume"
+            >My Resume</a
+          >
+        </div>
+      </div>
+      <div class="navMb">
+        <div class="top">
+          <div class="navTitle">&lt;Ganesh/&gt;</div>
+          <div class="menu">
+            <img src="assets/icons/hamburger.svg" class="hamburger open" />
+          </div>
+        </div>
+        <div class="bottom">
+          <a href="#about" class="link">About</a>
+          <a href="#skills" class="link">Skills</a>
+          <a href="#works" class="link">Works</a>
+          <a href="#contact" class="link">Contact</a>
+          <hr />
+          <p class="theme-switcher" data-theme-toggle aria-label="">
+            Light Theme
+          </p>
+          <a
+            href="https://docs.google.com/document/d/1rqHgPr63IvSQzHtyLOcScd4YUJFReY-6nr900EcWmNY/edit?usp=sharing"
+            class="resume"
+            >My Resume</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <!-- Intro -->
+    <div class="introBox">
+      <div class="textIntro">
+        <p class="head">Hi, I'm Ganesh👋</p>
+        <p class="desc">
+          I'm a full stack web developer with a focus on creating exceptional
+          digital experiences that are fast, accessible, visually appealing, and
+          responsive. I not only create websites but also like to work with
+          cloud and linux machines.
+        </p>
+        <p class="based">
+          <i class="fa-solid fa-location-dot"></i><span>Chennai, India</span>
+        </p>
+        <p class="based">
+          <i class="fa-solid fa-location-dot"></i><span>Kanchanpur, Nepal</span>
+        </p>
+        <p class="availability">
+          <i class="fa-solid fa-circle"></i
+          ><span>Available for freelance projects</span>
+        </p>
+
+        <div class="socials">
+          <p class="github">
+            <i
+              class="fa-brands fa-github"
+              style="cursor: pointer"
+              onclick="window.open('https://github.com/ganeshbistakaji', '_blank');"
+            ></i>
+          </p>
+          <p class="discord">
+            <i
+              class="fa-brands fa-linkedin"
+              style="cursor: pointer"
+              onclick="window.open('https://www.linkedin.com/in/ganesh-bista-444a46316/', '_blank');"
+            ></i>
+          </p>
+          <p class="mail" style="cursor: pointer">
+            <i class="fa-solid fa-envelope-open" onclick="sendMail();"></i>
+          </p>
+        </div>
+      </div>
+      <img src="assets/images/profile.png" alt="" class="image" />
+    </div>
+
+    <!-- About Me -->
+    <div class="about" id="about">
+      <div class="badge">About me</div>
+      <div class="aboutMe">
+        <img src="assets/images/second.png" alt="" class="pic" />
+        <div class="textIntro">
+          <p class="head">Wanna know more about me?</p>
+          <p class="desc">
+            I'm a passionate, web developer who is proficient in full stack web
+            development. I am always eager to learn more since learning is never
+            enough for me. When I am making a website UX, pixel perfect design
+            and efficient code matters to me.
+          </p>
+          <p class="desc">
+            I began programming during end of 2019, starting with Php and since
+            then I have continued to learn and grow as a developer. I am
+            proficient in Html, Css, Scss, Javascript, Php, Reactjs, MySql,
+            Python and I also love working with Cloud and Linux Machines.
+          </p>
+          <p class="desc">
+            Apart from programming you can see me write and compose songs, write
+            poems or you can see me jamming with my guitar and singing. I also
+            am learning to produce music as a side hobby.
+          </p>
+          <div class="qualification">
+            <p class="title">These are my qualifications.</p>
+            <div class="qList">
+              <p class="q">
+                &nbsp;• Nursery - 7th grade (Shree Siddhartha H.S School,
+                Kanchanpur, Nepal)
+              </p>
+              <p class="q">
+                &nbsp;• 8th - 12th Grade (Besant Arundale Senior Secondary
+                School, Chennai, India)
+              </p>
+              <p class="q">
+                &nbsp;• Bsc UI/UX Design & Development (ICAT Design & Media
+                College, Chennai, India)
+              </p>
+            </div>
+          </div>
+          <p class="desc">
+            Also, I'm available for freelance work, so feel free to reach out.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Skills -->
+    <div class="skills" id="skills">
+      <div class="badge">Skills</div>
+      <p class="title">The skills and tools I am good at.</p>
+      <div class="skills">
+        <i title="HTML" class="fa-brands fa-html5" style="color: #e34f26"></i>
+        <i title="CSS" class="fa-brands fa-css3-alt" style="color: #1572b6"></i>
+        <i title="SCSS" class="fa-brands fa-sass" style="color: #c69"></i>
+        <i
+          title="JAVASCRIPT"
+          class="fa-brands fa-js"
+          style="color: #f7df1e"
+        ></i>
+        <i
+          title="REACTJS"
+          class="fa-brands fa-react"
+          style="color: #61dafb"
+        ></i>
+        <i title="PHP" class="fa-brands fa-php" style="color: #777bb4"></i>
+        <i
+          title="PYTHON"
+          class="fa-brands fa-python"
+          style="color: #3776ab"
+        ></i>
+        <i
+          title="DATABASE"
+          class="fa-solid fa-database"
+          style="color: #4479a1"
+        ></i>
+        <i
+          title="DEBIAN"
+          class="fa-brands fa-debian"
+          style="color: #a81d33"
+        ></i>
+        <i title="FIGMA" class="fa-brands fa-figma" style="color: #f24e1e"></i>
+      </div>
+    </div>
+
+    <!-- Works -->
+    <div class="works" id="works">
+      <div class="badge">Works</div>
+      <p class="title">Some of the best projects that I have built.</p>
+      <div class="boxes">
+        <div class="box boxOne">
+          <div class="top">
+            <img src="assets/images/works/tnh.png" alt="" class="cover" />
+          </div>
+          <div class="bottom">
+            <p class="titleSec">TheNavigationHub</p>
+            <p class="desc">
+              A hub for web developers where they can find a lot of navigation
+              bar to use without wasting their time to code a lot.
+            </p>
+            <div class="tags">
+              <p class="tag">Css</p>
+              <p class="tag">Coming Soon</p>
+            </div>
+            <a
+              href="https://github.com/ganeshbistakaji/TheNavigationHub"
+              class="redirect" target="_blank"
+              ><i class="fa-solid fa-arrow-up-right-from-square"></i
+            ></a>
+          </div>
+        </div>
+        <div class="box boxTwo">
+          <div class="top">
+            <img
+              src="assets/images/works/stackmailr.png"
+              alt=""
+              class="cover"
+            />
+          </div>
+          <div class="bottom">
+            <p class="titleSec">Stackmailr</p>
+            <p class="desc">
+              StackMailr is a PHP application to send bulk emails to multiple
+              recipients at once. It is intended to be hosted locally for
+              personal or small-scale use.
+            </p>
+            <div class="tags">
+              <p class="tag">Html</p>
+              <p class="tag">Css</p>
+              <p class="tag">Scss</p>
+              <p class="tag">Php</p>
+              <p class="tag">Smtp</p>
+            </div>
+            <a
+              href="https://github.com/ganeshbistakaji/StackMailr"
+              class="redirect" target="_blank"
+              ><i class="fa-solid fa-arrow-up-right-from-square"></i
+            ></a>
+          </div>
+        </div>
+        <div class="box boxThree">
+          <div class="top">
+            <img src="assets/images/works/pamager.png" alt="" class="cover" />
+          </div>
+          <div class="bottom">
+            <p class="titleSec">Pamager</p>
+            <p class="desc">
+              Pamager is a open source password manager PHP application for
+              mobile devices intented to be self hosted to store and manage your
+              password safely.
+            </p>
+            <div class="tags">
+              <p class="tag">Html</p>
+              <p class="tag">Css</p>
+              <p class="tag">Scss</p>
+              <p class="tag">Php</p>
+              <p class="tag">MySql</p>
+            </div>
+            <a
+              href="https://github.com/ganeshbistakaji/Pamager"
+              class="redirect" target="_blank"
+              ><i class="fa-solid fa-arrow-up-right-from-square"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact" id="contact">
+      <div class="badge">Contact Me</div>
+      <p class="title">
+        Feel free to contact me if you're looking for a developer for your
+        project.
+      </p>
+      <p class="mailMe" onclick="sendMail();">Click here to send mail</p>
+      <p class="titleTwo">You can also find me on these platforms!</p>
+      <div class="socials">
+        <p class="github">
+          <i
+            class="fa-brands fa-github"
+            onclick="window.open('https://github.com/ganeshbistakaji', '_blank');"
+          ></i>
+        </p>
+        <p class="discord">
+          <i
+            class="fa-brands fa-linkedin"
+            onclick="window.open('https://www.linkedin.com/in/ganesh-bista-444a46316/', '_blank');"
+          ></i>
+        </p>
+        <p class="mail">
+          <i class="fa-solid fa-envelope-open" onclick="sendMail();"></i>
+        </p>
+      </div>
+    </div>
+    <script>
+      // Theme switcher
+      function calculateSettingAsThemeString({
+        localStorageTheme,
+        systemSettingDark,
+      }) {
+        if (localStorageTheme !== null) {
+          return localStorageTheme;
+        }
+        return systemSettingDark.matches ? "dark" : "light";
+      }
+
+      const localStorageTheme = localStorage.getItem("theme");
+      const systemSettingDark = window.matchMedia(
+        "(prefers-color-scheme: dark)"
+      );
+      let currentThemeSetting = calculateSettingAsThemeString({
+        localStorageTheme,
+        systemSettingDark,
+      });
+
+      document.documentElement.setAttribute("data-theme", currentThemeSetting);
+
+      const themeButtons = document.querySelectorAll(".theme-switcher");
+      const hamburger = document.querySelector(".hamburger");
+      const navMb = document.querySelector(".navMb");
+
+      const updateHamburgerIcon = () => {
+        const isMenuOpen = hamburger.classList.contains("close");
+        hamburger.src = isMenuOpen
+          ? currentThemeSetting === "dark"
+            ? "assets/icons/cancel_dark.svg"
+            : "assets/icons/cancel_light.svg"
+          : currentThemeSetting === "dark"
+          ? "assets/icons/hamburger_dark.svg"
+          : "assets/icons/hamburger_light.svg";
+      };
+
+      // Set the correct icon and button text on page load
+      updateHamburgerIcon();
+
+      themeButtons.forEach((button) => {
+        button.innerText =
+          currentThemeSetting === "dark" ? "Dark Theme" : "Light Theme";
+        button.setAttribute(
+          "aria-label",
+          `Current theme: ${currentThemeSetting}`
+        );
+
+        button.addEventListener("click", () => {
+          const newTheme = currentThemeSetting === "dark" ? "light" : "dark";
+          document.documentElement.setAttribute("data-theme", newTheme);
+          localStorage.setItem("theme", newTheme);
+          currentThemeSetting = newTheme;
+
+          // Update all theme switcher buttons
+          themeButtons.forEach((btn) => {
+            btn.innerText = newTheme === "dark" ? "Dark Theme" : "Light Theme";
+            btn.setAttribute("aria-label", `Current theme: ${newTheme}`);
+          });
+
+          updateHamburgerIcon();
+        });
+      });
+
+      // Hamburger menu toggle event
+      document.addEventListener("DOMContentLoaded", function () {
+        hamburger.addEventListener("click", function () {
+          if (hamburger.classList.contains("open")) {
+            hamburger.classList.replace("open", "close");
+            navMb.style.height = "max-content";
+          } else {
+            hamburger.classList.replace("close", "open");
+            navMb.style.height = "68px";
+          }
+          updateHamburgerIcon();
+        });
+      });
+
+      // For Mail redirect
+      function sendMail() {
+        const email = "ganeshbistakaji@gmail.com";
+        const subject = "From the portfolio";
+        const body = "write message here";
+
+        const mailtoLink = `mailto:${email}?subject=${encodeURIComponent(
+          subject
+        )}&body=${encodeURIComponent(body)}`;
+
+        const newWindow = window.open(mailtoLink, "_self");
+
+        setTimeout(() => {
+          if (
+            !newWindow ||
+            newWindow.closed ||
+            typeof newWindow.closed === "undefined"
+          ) {
+            const gmailLink = `https://mail.google.com/mail/?view=cm&to=${email}&su=${encodeURIComponent(
+              subject
+            )}&body=${encodeURIComponent(body)}`;
+            window.open(gmailLink, "_blank");
+          }
+        }, 500);
+      }
+
+      // Smooth Scrolling
+      document.addEventListener("DOMContentLoaded", function () {
+        document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+          anchor.addEventListener("click", function (e) {
+            e.preventDefault(); // Prevent default instant jump
+
+            const targetId = this.getAttribute("href").substring(1); // Remove #
+            const targetElement = document.getElementById(targetId);
+            const navElement = document.getElementById("nav"); // Get the #nav element
+
+            if (targetElement) {
+              const navHeight = navElement ? navElement.offsetHeight : 0; // Get the height of #nav
+              const targetPosition = targetElement.offsetTop - navHeight; // Adjust position
+
+              window.scrollTo({
+                top: targetPosition,
+                behavior: "smooth", // Smooth scrolling effect
+              });
+            }
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
